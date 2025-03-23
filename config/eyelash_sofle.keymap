@@ -54,7 +54,7 @@
         };
 
         layer_1 {
-            display-name = "F C2";
+            display-name = "1 - F C3";
 
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4                &kp F5             &kp UP_ARROW     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
@@ -68,7 +68,7 @@
         };
 
         layer_2 {
-            display-name = "Layer 2";
+            display-name = "2 - Blue";
             
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
@@ -82,7 +82,7 @@
         };
 
         layer_3 {
-            display-name = "Layer 3";
+            display-name = "3 - Trans";
 
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
