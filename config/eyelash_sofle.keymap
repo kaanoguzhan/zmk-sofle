@@ -31,17 +31,17 @@
 
 / {
     macros {
-        welcome_macro: macro {
+        welcome_macro: welcome_macro {
             label = "WELCOME";
-            bindings = <
-                &kp W &kp E &kp L &kp C &kp O &kp M &kp E
-            >;
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp W &kp E &kp L &kp C &kp O &kp M &kp E>
+                , <&macro_release &kp LSHFT>
+                ;
         };
     };
-};
-
-
-/ {
 
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
